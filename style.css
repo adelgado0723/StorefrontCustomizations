@@ -12,9 +12,19 @@
 :root {
   --light-green: #c8e558;
   --light-blue: #94d9fa;
+  --blue: #27b7f9;
   --orange: #f08b00;
   --pink: #e80b8f;
   --black: #1d191a;
+}
+#masthead {
+  padding: 25px 0px;
+  margin: 0;
+}
+
+#menu-primary-menu,
+#site-navigation {
+  height: 10vh;
 }
 
 .site-header {
@@ -26,7 +36,12 @@
 .site-header .site-title {
   font-size: 2rem;
 }
-
+.site-branding {
+  align-self: center;
+  justify-self: center;
+  padding: 0;
+  margin: 0;
+}
 .site-header .main-navigation {
   color: var(--light-blue);
 }
@@ -43,19 +58,16 @@
   display: none;
 }
 
-.site-branding {
-   !important width: 100vw;
-   !important display: flex;
-}
-
 .custom-logo {
-  float: right;
-  max-width: 10vw;
-  /* right: 0; */
+  max-width: 7vw;
+}
+.custom-logo:active {
+  border: none;
 }
 
 .col-full {
   max-width: 100vw;
+  display: flex;
 }
 
 .attachment-medium .size-medium {
@@ -72,4 +84,16 @@
 
 .site-info {
   padding: 0;
+}
+a.custom-logo {
+  align-self: center;
+  justify-self: center;
+}
+
+#colophon .col-full {
+  display: block;
+}
+
+.widget_shopping_cart_content {
+  display: none;
 }
