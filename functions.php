@@ -3,7 +3,7 @@
 
 require 'inc/storefront-template-functions.php';
 // if (storefront_is_woocommerce_activated()) {
-  require 'inc/woocommerce/storefront-woocommerce-template-functions.php';
+require 'inc/woocommerce/storefront-woocommerce-template-functions.php';
 // }
 
 function theme_enqueue_styles()
